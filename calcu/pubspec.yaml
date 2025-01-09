@@ -1,0 +1,19 @@
+name: calcu
+description: A simple Flutter app for calculating expressions
+
+environment:
+  sdk: "^3.5.0"  # ระบุเวอร์ชันของ Dart SDK ที่รองรับ
+
+dependencies:
+  flutter:
+    sdk: flutter
+  math_expressions: ^2.0.0
+  intl: ^0.18.0  # เพิ่ม intl package
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
