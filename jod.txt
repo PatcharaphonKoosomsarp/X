@@ -1,5 +1,0 @@
-flutter create --platforms android your_project_name --offline
-
-flutter clean
-flutter pub get
-flutter build apk
