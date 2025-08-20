@@ -1,0 +1,9 @@
+เอาคำสั่งพวกนี้พิมพ์ใน terminal ใน path โฟล์เดอร์นี้ พิมพ์ทีละคำสั่ง
+
+pip install -r requirements.txt
+
+python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')"
+
+python -c "import nltk; nltk.download('punkt_tab')"
+
+python -m spacy download en_core_web_sm
